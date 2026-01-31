@@ -49,7 +49,19 @@ const SidebarContent: MenuItem[] = [
       },
     ],
   },
-
+  {
+    heading: "Xtreme Livestream",
+    children: [
+      {
+        name: "Xtreme Livestream",
+        icon: 'solar:play-stream-bold',
+        id: uniqueId(),
+        url: "/xtreme",
+        badge: true,
+        badgeType: "filled",
+      },
+    ],
+  },
   {
     heading: "Trading",
     children: [
@@ -257,19 +269,6 @@ const SidebarContent: MenuItem[] = [
         icon: 'ph:megaphone-duotone',
         id: uniqueId(),
         url: "/",
-      },
-    ],
-  },
-  {
-    heading: "Xtreme Livestream",
-    children: [
-      {
-        name: "Xtreme Livestream",
-        icon: 'solar:play-stream-bold',
-        id: uniqueId(),
-        url: "/xtreme",
-        badge: true,
-        badgeType: "filled",
       },
     ],
   },
